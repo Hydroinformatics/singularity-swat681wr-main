@@ -21,7 +21,8 @@ From: library/debian@sha256:edb0a5915350ee6e2fedd8f9d0fe2e7f956f7a58f7f41b5e836e
 #                 strace \
 #                 lsof 
 
-  cd /root/build/swat_rev681_WRs 
+  cd /root/build/swat_rev681_WRs
+  git init
   git pull https://github.com/Hydroinformatics/InterACTWEL.git swat_rev681_WRs 
   dos2unix * 
   make debug64 
